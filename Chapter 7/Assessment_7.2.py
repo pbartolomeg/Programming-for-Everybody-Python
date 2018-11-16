@@ -19,7 +19,7 @@ for line in fread:
         print (line)
  """
 lenght = len('X-DSPAM-Confidence:')
-numSpam = float(0)
+numSpam = float(0) #convert to float
 count = 0
 for line in fread:
     line.rsplit()

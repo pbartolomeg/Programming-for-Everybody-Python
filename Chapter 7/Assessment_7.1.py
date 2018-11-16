@@ -6,7 +6,7 @@ try:
     fread = open('/Users/pablobartolome/Documents/Python/files/mbfox.txt')
 except:
     print ('File cannot be opened')
-    os._exit(1)
+    os._exit(1) #need it to stop the app
 
 for line in fread:
     print (line.upper())
