@@ -27,6 +27,8 @@ for line in fread:
         startD = lenght + 1 # Start position
         numSpam += float (line[startD:startD + 6])
         count += 1
+        
 print (numSpam / count)  #average of SpamNumber
+
     
 
